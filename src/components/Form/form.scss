@@ -1,0 +1,131 @@
+.form {
+	width: 100%;
+	min-height: 45.404vw;
+	z-index: 2;
+	background: #ffffff;
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		margin-top: 6.97vw;
+		padding-left: 4.04vw;
+		padding-right: 4.04vw;
+		row-gap: 3.333vw;
+		&_input {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			row-gap: 0.505vw;
+			&_w40 {
+				width: 48%;
+			}
+		}
+		&_inputs {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	&__label {
+		font-weight: 600;
+		font-size: 0.859vw;
+		line-height: 99%;
+		letter-spacing: -0.04em;
+		text-transform: uppercase;
+		color: #000c24;
+		span {
+			opacity: 0.1;
+		}
+		&_phone {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			img {
+				width: 1.212vw;
+				height: 1.212vw;
+				cursor: pointer;
+			}
+		}
+	}
+	&__input {
+		border: none;
+		border-bottom: 1px solid rgba(0, 12, 36, 0.1);
+
+		&:focus {
+			outline: none;
+		}
+	}
+	&__heading {
+		font-weight: 600;
+		font-size: 1.667vw;
+		line-height: 99%;
+		letter-spacing: -0.06em;
+		color: #000c24;
+		padding-left: 4.04vw;
+		padding-top: 4.04vw;
+		display: flex;
+		justify-content: space-between;
+		padding-right: 4.04vw;
+		.stick {
+			width: 0.859vw;
+			height: 0.202vw;
+			background: #0026e7;
+		}
+	}
+	&__button {
+		position: relative;
+		width: 20.707vw;
+		padding-bottom: 4.04vw;
+		align-self: flex-end;
+		button {
+			width: 100%;
+			border: none;
+			background-color: #ffffff;
+		}
+		&_text {
+			font-weight: 500;
+			font-size: 2.002vw;
+			letter-spacing: -0.05em;
+			color: #0026e7;
+			cursor: pointer;
+		}
+		&_content {
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			cursor: pointer;
+		}
+		&_arrow {
+			height: 0.152vw;
+			width: 1.111vw;
+			background-color: #0026e7;
+			position: relative;
+			cursor: pointer;
+			&::before {
+				content: "";
+				position: absolute;
+				width: 0.808vw;
+				height: 0.152vw;
+				background-color: #0026e7;
+				transform: rotate(+45deg);
+				bottom: 0.253vw;
+			}
+			&::after {
+				content: "";
+				position: absolute;
+				width: 0.808vw;
+				height: 0.152vw;
+				background-color: #0026e7;
+				transform: rotate(-45deg);
+				top: 0.253vw;
+			}
+		}
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 3px;
+			background-color: #0026e7;
+			bottom: 2.677vw;
+		}
+	}
+}

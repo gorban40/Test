@@ -1,0 +1,35 @@
+.bar {
+	padding-top: 3.03vw;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 6.061vw;
+	}
+	&__block {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	&__item {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 0.758vw;
+		text-transform: uppercase;
+		color: #000c24;
+		opacity: 0.1;
+		&_black {
+			font-weight: 700;
+			font-size: 0.758vw;
+			line-height: 99%;
+			text-transform: uppercase;
+			color: #000c24;
+		}
+	}
+	&_bottom {
+		padding-top: 0;
+		margin-top: 16.465vw;
+	}
+	&_right {
+		margin-left: 40.404vw;
+	}
+}
