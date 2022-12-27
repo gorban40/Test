@@ -2,8 +2,9 @@
 
 .block8 {
 	background: #0026e7;
-	height: vw(6533px);
+	min-height: vw(6533px);
 	margin-top: vw(60px);
+	overflow: hidden;
 	&__wrapper {
 		&_head {
 			padding-top: vw(60px);
@@ -13,6 +14,15 @@
 			display: flex;
 			flex-direction: column;
 			row-gap: vw(43px);
+		}
+		&_cards {
+			display: flex;
+			flex-direction: column;
+			row-gap: vw(233px);
+			margin-top: vw(154px);
+			padding-bottom: vw(566px);
+			padding-left: vw(167px);
+			padding-right: vw(168px);
 		}
 	}
 	&__heading {

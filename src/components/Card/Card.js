@@ -1,7 +1,7 @@
 import "./Card.scss";
 
 const Card = (props) => {
-	let classNameRightPositon = "card"; //* deafult value: left */
+	let classNameRightPositon = "card"; //! deafult value: left
 	if (props.left) {
 		classNameRightPositon = "card_left";
 	}

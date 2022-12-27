@@ -19,17 +19,78 @@ const Block8 = () => {
 			<div className="block8__wrapper_cards">
 				<div className="block8__wrapper_card">
 					<Card
-						title={`TPD for all Europe`}
+						title={`TPD for \n all Europe`}
 						descr={
-							"HQD has TPD registration for all products in all EU countries, which allows you to start selling immediately"
+							"HQD has TPD \n registration for all \n products in all EU \n countries, which allows \n you to start selling \n immediately"
 						}
+						headingWidth={100}
+						descrWidth={216}
 					/>
 					<Card
-						title={"Search fordistributors"}
+						title={`Very high \n margin`}
 						descr={
-							" We are ready to work both with small clients who do not have many points of sale, and with large retail chains/filling stations/distributors"
+							"The high margin \n of the product allows \n our partners to get the \n maximum profit"
 						}
 						left={true}
+						headingWidth={101}
+						descrWidth={214}
+					/>
+				</div>
+				<div className="block8__wrapper_card">
+					<Card
+						title={`Search for \n distributors`}
+						descr={
+							"We are ready to work both \n with small clients who \n do not have many points \n of sale, and with large retail \n chains/filling stations/\ndistributors"
+						}
+						headingWidth={123}
+						descrWidth={246}
+					/>
+					<Card
+						title={"Large warehouse \n in the EU"}
+						descr={
+							"We have a large stock \n of products in our \n warehouse in Poland,\n thanks to which we are\n able to supply our\n customers with goods\n without interruption.\n The stock is regularly\n replenished"
+						}
+						left={true}
+						headingWidth={195}
+						descrWidth={214}
+					/>
+				</div>
+				<div className="block8__wrapper_card">
+					<Card
+						title={`Guarantee`}
+						descr={
+							"Our products undergo \n multi-level quality\n control and have a\n minimal defect rate.\n We have no problem\n replacing defects"
+						}
+						headingWidth={123}
+						descrWidth={246}
+					/>
+					<Card
+						title={"Shipping"}
+						descr={
+							"We can deliver\n anywhere in Europe\n from 24 hours from the\n time we receive your\n order. We have\n contracts for delivery\n by plane and overland\n transport"
+						}
+						left={true}
+						headingWidth={195}
+						descrWidth={214}
+					/>
+				</div>
+				<div className="block8__wrapper_card">
+					<Card
+						title={`Marketing`}
+						descr={
+							"Support of sales outlets\n with promotional\n materials and stands"
+						}
+						headingWidth={123}
+						descrWidth={246}
+					/>
+					<Card
+						title={"Support"}
+						descr={
+							"Our partners receive\n marketing support that\n increases sales"
+						}
+						left={true}
+						headingWidth={195}
+						descrWidth={214}
 					/>
 				</div>
 			</div>
