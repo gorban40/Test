@@ -1,0 +1,51 @@
+@import "../../style/mixin.scss";
+
+.card {
+	padding: vw(39px) vw(53px) vw(35px) vw(40px);
+	width: vw(433px);
+	height: vw(533px);
+	background: #ffffff;
+	border-radius: 27px;
+	&_left {
+		padding: vw(39px) vw(53px) vw(35px) vw(40px);
+		width: vw(433px);
+		height: vw(533px);
+		background: #ffffff;
+		border-radius: 27px;
+		align-self: flex-end;
+	}
+	&__descr {
+		font-weight: 500;
+		font-size: vw(21px);
+		line-height: 120%;
+		letter-spacing: -0.033em;
+		width: vw(246px);
+		color: #000c24;
+	}
+	&__wrapper {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: stretch;
+		height: 100%;
+		&_head {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+	&__heading {
+		width: vw(182px);
+		font-weight: 600;
+		font-size: vw(24px);
+		line-height: 100%;
+		letter-spacing: -0.033em;
+		color: #0026e7;
+	}
+	&__dot {
+		width: vw(7px);
+		height: vw(7px);
+		background: #0026e7;
+		border-radius: 1033px;
+	}
+}
